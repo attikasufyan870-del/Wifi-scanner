@@ -80,6 +80,16 @@ def sniffpackets(packet):
 				ssid_list[SRCMAC] = SSID
 
 def init_process ():
+	# AS Addition - Security Level Checker
+def check_security_level(security):
+    if "WPA3" in security:
+        print("🟢 HIGH SECURITY — Bahut safe hai!")
+    elif "WPA2" in security:
+        print("🟡 MEDIUM SECURITY — Theek hai!")
+    elif "WPA" in security:
+        print("🟠 LOW SECURITY — Upgrade karo!")
+    else:
+        print("🔴 NO SECURITY — Bilkul safe nahi!")
 	global ssid_list
 	ssid_list = {}
 	global s
