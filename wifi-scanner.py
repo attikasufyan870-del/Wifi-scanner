@@ -1,3 +1,12 @@
+# ============================================
+#  AS | Attika Sufyan
+#  Cybersecurity Student
+#  GitHub: github.com/attikasufyan870-del
+#  Course: EC-Council Cybersecurity
+#  Topic: WiFi Network Scanner
+#  Date: April 2026
+#  Forked from: s3bap3/Wifi-scanner
+# ============================================
 #!/usr/bin/python
 
 from scapy.all import *
